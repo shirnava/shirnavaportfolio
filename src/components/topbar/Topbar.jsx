@@ -25,6 +25,17 @@ export default function topbar() {
               
           </div>
           <div className="right">
+            <div className="hamburger">
+              <span className='firstline'>
+
+              </span>
+              <span className='secondline'>
+
+              </span>
+              <span className='thirdline'>
+
+              </span>
+            </div>
           </div>
         </div>
         </div>

@@ -1,8 +1,69 @@
+@import "../../global.scss";
+
+
 .topbar{
     width: 100%;
     height: 70px;
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
+    color: $mainColor;
     position: fixed;
     top: 0;
     z-index: 2;
+    overflow:hidden;
+    
+
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .left{
+            align-items: center;
+            display: flex;
+            overflow: hidden;
+           
+            .logo{
+                font-size: 40px;
+                font-weight:700;
+                font-family: 'Leckerli One', cursive;
+                text-decoration: none;
+                color: inherit;
+                
+                .logoMoon{
+                    transform: scaleX(-1)
+                            rotate(20deg)
+                            translate(3px,1px);
+                    
+                }
+            }
+            .logor{
+                font-size: 40px;
+                font-weight:700;
+                font-family: 'Galada', cursive;
+                text-decoration: none;
+                color: inherit;
+                transform:
+                            translate(0px,5px);
+            }
+
+            .itemContainer{
+                display:flex;
+                align-items: center;
+                margin-left: 30px;
+                .icon{
+                    font-size: 18px;
+                    margin-left:30px;
+                    margin-right: 10px;
+                }
+                span{
+                    font-size: 15px;
+                    font-weight: 400;
+
+                }
+            }
+        }
+    }
 }

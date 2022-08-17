@@ -7,10 +7,22 @@
         background-color: whitesmoke;
         position: relative;
         top: 70px;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+
+        //disable scrollbar shown
+        //for firefox only
+        scrollbar-width: none; 
+
+        //for other browsers
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         >*{
             width: 100vw;
             height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
     }
 }

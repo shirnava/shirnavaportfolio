@@ -3,9 +3,9 @@ import ModeNightIcon from '@mui/icons-material/ModeNight';
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
 
-export default function topbar() {
+export default function topbar({menuOpen,setMenuOpen}) {
   return (
-    <div className="topbar">
+    <div className={"topbar "+(menuOpen && "active")}>
         <div className="wrapper">
           <div className="left">
             {/* logo */}
@@ -25,7 +25,7 @@ export default function topbar() {
               
           </div>
           <div className="right">
-            <div className="hamburger">
+            <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
               <span className='firstline'>
 
               </span>

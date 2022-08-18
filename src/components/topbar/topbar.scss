@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 2;
     overflow:hidden;
-    
+    transition: all 1s ease;
 
 
     .wrapper{
@@ -44,8 +44,7 @@
                 font-family: 'Galada', cursive;
                 text-decoration: none;
                 color: inherit;
-                transform:
-                            translate(0px,5px);
+                transform: translate(0px,5px);
             }
 
             .itemContainer{
@@ -68,16 +67,17 @@
         .right{
 
             .hamburger{
-                width: 30px;
-                height: 22px;
+                width: 33px;
+                height: 25px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+                overflow:hidden;
 
                 span{
                     width: 100%;
-                    height: 4px;
+                    height: 3px;
                     background-color: $mainColor;
                     transform-origin: left;
                     transition: all 2s ease;
@@ -91,17 +91,18 @@
         color:white;
 
         .hamburger{
+        overflow:hidden;
             span{
                 &:first-child{
                     background-color: white;
-                    transform:rotate(45deg);
+                    transform: rotate(45deg);
                 }
                 &:nth-child(2){
                     opacity: 0;
                 }
                 &:last-child{
                     background-color: white;
-                    transform:rotate(-45deg);
+                    transform: rotate(-45deg);
                 }
             }
         }

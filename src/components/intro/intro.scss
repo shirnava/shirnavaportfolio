@@ -1,5 +1,59 @@
 .intro{
     font-family: 'Pacifico', cursive;
-    font-size:x-large;
-    background-color: #F2B8C6;
+    font-size: x-large;
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+        margin-top: 80px;
+        margin-right: 100px;
+
+        .imgContainer{
+            width: 730px;
+            height: 680px;
+            border-bottom: 30px;
+            background-color: bisque;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            float: right;
+            align-items: flex-end;
+            
+
+            .img{
+            display: block;
+            width: 100%;
+            max-width: 500px; /*actual image width*/
+            height: auto; /* maintain aspect ratio*/
+            margin: auto;
+            }
+        }
+    }
+    .right{
+        flex: 0.5;
+        width: 100px;
+        height: 200px;
+        margin-top: 250px;
+
+        .wrapper{
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+    }
 }

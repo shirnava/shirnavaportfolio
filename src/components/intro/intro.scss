@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .intro{
     font-family: 'Pacifico', cursive;
     font-size: x-large;
@@ -7,7 +8,7 @@
     .left{
         flex: 0.5;
         overflow: hidden;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-right: 100px;
 
         .imgContainer{
@@ -34,8 +35,10 @@
     .right{
         flex: 0.5;
         width: 100px;
-        height: 200px;
+        height: 320px;
         margin-top: 250px;
+        position: relative;
+        overflow: hidden;
 
         .wrapper{
             padding-left: 50px;
@@ -53,6 +56,28 @@
             }
             h3{
                 font-size: 30px;
+
+                span{
+                    font-size: inherit;
+                    color: $mainColor;
+                }
+            }
+        }
+        a{
+            position: absolute;
+            left: 40%;
+            
+            .arr{
+                color: $mainColor;
+                margin-top: 95px;
+                font-size: 90px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 30%;
+                }
             }
         }
     }

@@ -11,7 +11,7 @@ export default function Intro() {
   const textRef = useRef();
   useEffect(()=>{
     new Typewriter(textRef.current, {
-      strings: ['Software Developer', 'Computer Science Senior at UCF', 'UX Designer'],
+      strings: ['Software Developer', 'Computer Science Student', 'UX Designer'],
       autoStart: true,
       loop: true,
     });

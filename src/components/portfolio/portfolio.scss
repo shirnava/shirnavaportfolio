@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .portfolio{
+    padding-top: 40px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -34,5 +35,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
+        .item{
+            width: 220px;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid rgb(240,239,239);
+            margin: 10px 20px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+
+            img{
+                align-self: center;
+                width: 50%;
+                height: 70%;
+            }
+            h3{
+                position: absolute;
+                font-size: 20px;
+            }
+        }
     }
 }

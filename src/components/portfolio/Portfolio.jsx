@@ -20,10 +20,19 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="" alt="" />
-          <h3></h3>
+          <img src="https://pbs.twimg.com/profile_images/1510276954938920966/_jPqrcHD_400x400.jpg" alt="" />
+          <h3>Minion App</h3>
         </div>
       </div>
+      <div className="container">
+        <div className="item">
+          <img src="https://pbs.twimg.com/profile_images/1510276954938920966/_jPqrcHD_400x400.jpg" alt="" />
+          <h3>Minion App</h3>
+        </div>
+      </div>
+     
+     
+     
         
     </div>
   )

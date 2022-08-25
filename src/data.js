@@ -21,7 +21,20 @@ export const featuredPortfolio = [
         title: "Disharmonic Unity Game",
         img: "assets/disharmonic.png",
         code: "https://github.com/shirnava/Disharmonic"
+    },
+    {
+        id: "5",
+        title: "The Legend of Kaneko Ono",
+        img: "assets/legendof.png",
+        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono"
+    },
+    {
+        id: "6",
+        title: "Classify Clothing Items, placed 20/151",
+        img: "assets/clothes.png",
+        code: "https://www.kaggle.com/code/shirnava22/assignment4clothes"
     }
+
 ]
 
 export const discordPortfolio = [
@@ -46,7 +59,7 @@ export const videogamePortfolio = [
     {
         id: "2",
         title: "Tic Tac Toetle",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536",
+        img: "assets/tictac.png",
         code: "https://github.com/shirnava/tictactoetle"
     }
 ]

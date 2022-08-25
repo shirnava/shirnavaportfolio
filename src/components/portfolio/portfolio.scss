@@ -46,11 +46,10 @@
             margin: 10px 20px;
             align-items: center;
             justify-content: center;
-            color: white;
+            color: black;
             text-align: center;
             position: relative;
             transition: 0.5s;
-            cursor: pointer;
 
             img{
                 align-self: center;
@@ -62,6 +61,27 @@
             h3{
                 position: absolute;
                 font-size: 20px;
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                a {
+                    text-decoration: none;
+                }
+                .button{
+                    margin-top: 85px;
+                    margin-right: 17px;
+                    margin-left: 10px;
+                    background-color: $mainColor;
+                    color: black;
+                    font-size: 14px;
+                    padding: 7px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    text-align: center;
+                }
             }
 
             &:hover{

@@ -12,6 +12,21 @@ import { featuredPortfolio,
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured")
   const [data, setData] = useState([])
+  const showcase = [
+    {
+      id: "code",
+      title: "Code"
+    },
+    {
+      id: "demo",
+      title: "Demo"
+    },
+    {
+      id: "details",
+      title: "Details"
+    }
+
+  ]
   const tags = [
     {
       id: "featured",
@@ -81,8 +96,25 @@ export default function Portfolio() {
         {data.map(d=>(
           <div className="item">
           <img src= {d.img} alt="" />
-          <h3>{d.title}
-          </h3>
+          <h3>{d.title}</h3>
+          <div className = "buttons">
+            {("code" in d ? <a href={d.code}>
+              <div className = "button">
+              Code
+              </div>
+            </a> : <h1></h1>)}
+            
+            {("demo" in d ? <a href={d.demo}>
+              <div className = "button">
+              Demo
+              </div>
+            </a> : <h1></h1>)}
+                    
+              <div className = "button">
+              Info
+              </div>
+
+          </div>
         </div>
         ))}
     </div>

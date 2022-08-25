@@ -57,10 +57,24 @@
                     margin-left:30px;
                     margin-right: 10px;
                 }
+                a{
+                    text-decoration: none;
+                    span{
+                        
+                        font-size: 16px;
+                        font-weight: 400;
+    
+                    }
+                }
                 span{
+                    color: $mainColor;
                     font-size: 16px;
                     font-weight: 400;
 
+                }
+                img{
+                    margin-left: 10px;
+                    margin-right: 12px;
                 }
             }
         }

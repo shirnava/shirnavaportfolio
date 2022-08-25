@@ -26,7 +26,8 @@ export const featuredPortfolio = [
         id: "5",
         title: "The Legend of Kaneko Ono",
         img: "assets/legendof.png",
-        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono"
+        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono",
+        demo: "https://www.youtube.com/watch?v=wY-m94LWnp8&t=91s&ab_channel=TheLegendofKanekoOno"
     },
     {
         id: "6",
@@ -54,7 +55,8 @@ export const videogamePortfolio = [
         id: "2",
         title: "The Legend of Kaneko Ono",
         img: "assets/legendof.png",
-        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono"
+        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono",
+        demo: "https://www.youtube.com/watch?v=wY-m94LWnp8&t=91s&ab_channel=TheLegendofKanekoOno"
     },
     {
         id: "2",

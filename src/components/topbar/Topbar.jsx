@@ -22,6 +22,26 @@ export default function topbar({menuOpen,setMenuOpen}) {
             <MailIcon className = "icon"/>
             <span>shirnava@gmail.com</span>
             </div>
+            <div className = "itemContainer">
+            <img src="assets/github.png" alt="" width={20} height={20} />
+            <a href="https://github.com/shirnava">
+            <span>GitHub</span>
+            </a>
+            </div>
+            <div className = "itemContainer">
+            <MailIcon className = "icon"/>
+            <a href="https://www.linkedin.com/in/shir-nava/">
+            <span>LinkedIn</span>
+            </a>
+            
+            </div>
+            <div className = "itemContainer">
+            <MailIcon className = "icon"/>
+            <a href="https://drive.google.com/file/d/1e2nSRdX6xFmSL8hGqZ-H_luIK-shSwVL/view?usp=sharing">
+            <span>Resume</span>
+            </a>
+            
+            </div>
               
           </div>
           <div className="right">

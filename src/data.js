@@ -2,22 +2,25 @@ export const featuredPortfolio = [
     {
         id: "1",
         title: "Kpop Discord Card Bot",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/icon.png",
+        demo: "https://www.youtube.com/watch?v=TOeb1_qCxwE&feature=youtu.be&ab_channel=ShirNava"
     },
     {
         id: "2",
         title: "RE-RASSOR Cart FSI NASA",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/rerassor.png"
     },
     {
         id: "3",
         title: "React Portfolio Website",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/portfolio.png",
+        code: "https://github.com/shirnava/shirnavaportfolio"
     },
     {
         id: "4",
         title: "Disharmonic Unity Game",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/disharmonic.png",
+        code: "https://github.com/shirnava/Disharmonic"
     }
 ]
 
@@ -25,37 +28,53 @@ export const discordPortfolio = [
     {
         id: "1",
         title: "Kpop Discord Card Bot",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
-    }
+        img: "assets/icon.png",
+        demo: "https://www.youtube.com/watch?v=TOeb1_qCxwE&feature=youtu.be&ab_channel=ShirNava"}
 ]
 export const videogamePortfolio = [
     {
         id: "1",
         title: "Disharmonic Unity Game",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
-    },
+        img: "assets/disharmonic.png",
+        code: "https://github.com/shirnava/Disharmonic" },
     {
         id: "2",
         title: "The Legend of Kaneko Ono",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/legendof.png",
+        code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono"
     },
     {
         id: "2",
         title: "Tic Tac Toetle",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536",
+        code: "https://github.com/shirnava/tictactoetle"
     }
 ]
 
 export const mlPortfolio = [
     {
         id: "1",
-        title: "Predict future COVID-19 deaths",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        title: "Predict future COVID-19 deaths, placed 27/146",
+        img: "assets/covid19.png",
+        code: "https://www.kaggle.com/code/shirnava22/assignment1"
     },
     {
         id: "2",
-        title: "Predict Clothing Item",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        title: "Classify Clothing Items, placed 20/151",
+        img: "assets/clothes.png",
+        code: "https://www.kaggle.com/code/shirnava22/assignment4clothes"
+    },
+    {
+        id: "3",
+        title: "Predict ESRB Ratings, placed 28/154",
+        img: "assets/predictesrb.png",
+        code: "https://www.kaggle.com/code/shirnava22/assignment2"
+    },
+    {
+        id: "4",
+        title: "Predict Atomization Energy",
+        img: "assets/predictatomization.png",
+        code: "https://www.kaggle.com/code/shirnava22/assignment3"
     }
 ]
 
@@ -64,13 +83,14 @@ export const webappPortfolio = [
     {
         id: "1",
         title: "React Portfolio Website",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/portfolio.png",
+        code: "https://github.com/shirnava/shirnavaportfolio"
     }
 ]
 export const mobileappPortfolio = [
     {
         id: "1",
         title: "RE-RASSOR Cart FSI NASA",
-        img: "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20220602111700&q=80&rw=750&rh=536"
+        img: "assets/rerassor.png"
     }
 ]

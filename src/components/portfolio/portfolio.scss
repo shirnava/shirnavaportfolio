@@ -67,27 +67,30 @@
                 align-items: center;
                 justify-content: center;
                 position: absolute;
-                a {
-                    text-decoration: none;
-                }
+                
                 .button{
                     margin-top: 85px;
                     margin-right: 17px;
                     margin-left: 10px;
                     background-color: $mainColor;
-                    color: black;
+                    color: white;
                     font-size: 14px;
                     padding: 7px;
                     border-radius: 10px;
                     cursor: pointer;
                     text-align: center;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
             }
 
             &:hover{
                 background-color: $mainColor;
                 img{
-                    opacity: 0.4;
+                    opacity: 0.5;
                     z-index: 0;
                 }
             }

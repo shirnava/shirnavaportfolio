@@ -98,22 +98,15 @@ export default function Portfolio() {
           <img src= {d.img} alt="" />
           <h3>{d.title}</h3>
           <div className = "buttons">
-            {("code" in d ? <a href={d.code}>
+            {("code" in d ? 
               <div className = "button">
-              Code
-              </div>
-            </a> : <h1></h1>)}
+              <a href={d.code}>Code</a>
+              </div> : <h1></h1>)}
             
-            {("demo" in d ? <a href={d.demo}>
-              <div className = "button">
-              Demo
-              </div>
-            </a> : <h1></h1>)}
+            {("demo" in d ? <div className = "button">
+              <a href={d.demo}>Demo</a>
+              </div> : <h1></h1>)}
                     
-              <div className = "button">
-              Info
-              </div>
-
           </div>
         </div>
         ))}

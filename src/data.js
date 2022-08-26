@@ -24,7 +24,7 @@ export const featuredPortfolio = [
     },
     {
         id: "5",
-        title: "The Legend of Kaneko Ono",
+        title: "The Legend of Kaneko Ono Unity Game",
         img: "assets/legendof.png",
         code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono",
         demo: "https://www.youtube.com/watch?v=wY-m94LWnp8&t=91s&ab_channel=TheLegendofKanekoOno"
@@ -53,14 +53,14 @@ export const videogamePortfolio = [
         code: "https://github.com/shirnava/Disharmonic" },
     {
         id: "2",
-        title: "The Legend of Kaneko Ono",
+        title: "The Legend of Kaneko Ono Unity Game",
         img: "assets/legendof.png",
         code: "https://github.com/POOSD/The-Legend-of-Kaneko-Ono",
         demo: "https://www.youtube.com/watch?v=wY-m94LWnp8&t=91s&ab_channel=TheLegendofKanekoOno"
     },
     {
         id: "2",
-        title: "Tic Tac Toetle",
+        title: "Tic Tac Toetle Game",
         img: "assets/tictac.png",
         code: "https://github.com/shirnava/tictactoetle"
     }

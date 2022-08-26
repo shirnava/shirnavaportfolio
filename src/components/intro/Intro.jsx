@@ -30,7 +30,7 @@ export default function Intro() {
               Hi there! I'm
             </h2>
             <h1>Shir Nava</h1>
-            <h3> <span ref = {textRef}></span> Graduating December 2022</h3> 
+            <h3> <span ref = {textRef}></span> graduating December 2022</h3> 
           </div>
         <a href="#portfolio">
           <KeyboardArrowDownIcon className = "arr"/>

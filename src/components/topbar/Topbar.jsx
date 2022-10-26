@@ -15,10 +15,6 @@ export default function topbar({menuOpen,setMenuOpen}) {
             </a>
             <div className="logor">r</div>
             <div className = "itemContainer">
-            <PersonIcon className = "icon"/>
-            <span>+1(305)409-3112</span>
-            </div>
-            <div className = "itemContainer">
             <MailIcon className = "icon"/>
             <span>shirnava@gmail.com</span>
             </div>

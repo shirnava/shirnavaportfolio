@@ -11,7 +11,7 @@ export default function Intro() {
   const textRef = useRef();
   useEffect(()=>{
     new Typewriter(textRef.current, {
-      strings: ['Software Engineer', 'Computer Science Student', 'UX Designer'],
+      strings: ['passionate', 'curious', 'driven'],
       autoStart: true,
       loop: true,
     });
@@ -30,7 +30,7 @@ export default function Intro() {
               Hi there! I'm
             </h2>
             <h1>Shir Nava</h1>
-            <h3> <span ref = {textRef}></span> graduating December 2022</h3> 
+            <h3>a <span ref = {textRef}></span> Software Engineer.</h3> 
           </div>
         <a href="#portfolio">
           <KeyboardArrowDownIcon className = "arr"/>
